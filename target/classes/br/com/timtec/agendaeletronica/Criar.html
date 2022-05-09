@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+	<meta charset="UTF-8">
+	<titulo>Agenda Eletrônica</titulo>
+</head>
+
+<body>
+	<wicket:extend>
+		<h1 wicket:id="titulo"></h1>
+		<form wicket:id="formularioContato" name="formularioContato">
+			<input wicket:id="nome" type="text" placeholder="Nome">
+			<br>
+			<input wicket:id="email" type="text" placeholder="E-mail">
+			<br>
+			<input wicket:id="telefone" type="text" placeholder="Telefone">
+			<button type="submit" name="submit">Salvar</button>
+		</form>
+	</wicket:extend>
+</body>
+</html>
